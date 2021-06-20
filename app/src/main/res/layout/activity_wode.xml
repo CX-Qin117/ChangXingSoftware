@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WodeActivity"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="800dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/yonghut"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+        <TextView
+            android:id="@+id/tv_7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="我的资料"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@drawable/but_uername"/>
+        <TextView
+            android:id="@+id/tv_8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_7"
+            android:layout_marginTop="20dp"
+            android:text="离线地图"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@drawable/but_uername"/>
+        <TextView
+            android:id="@+id/tv_9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_8"
+            android:layout_marginTop="20dp"
+            android:text="关于软件"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@drawable/but_uername"/>
+        <TextView
+            android:id="@+id/tv_10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_9"
+            android:layout_marginTop="20dp"
+            android:text="设置"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@drawable/but_uername"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/bt_shouye"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn_5"
+            android:text="首页"
+            android:textSize="25sp"
+            />
+        <Button
+            android:id="@+id/bt_gongneng"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="125dp"
+            android:background="@drawable/btn_5"
+            android:text="功能"
+            android:textSize="25sp"
+
+            />
+        <Button
+            android:id="@+id/bt_xiaoxi"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="225dp"
+            android:background="@drawable/btn_5"
+            android:text="消息"
+            android:textSize="25sp"
+
+            />
+        <Button
+            android:id="@+id/bt_wode"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="325dp"
+            android:background="@drawable/btn_5"
+            android:text="我的"
+            android:textSize="25sp"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

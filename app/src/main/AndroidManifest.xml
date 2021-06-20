@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.changxingapp2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChangXingApp2">
+        <activity android:name=".WodeActivity"></activity>
+        <activity android:name=".XiaoxiActivity" />
+        <activity android:name=".GongnengActivity" />
+        <activity android:name=".Main2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".zhuceActivity" />
+        <activity android:name=".loginActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

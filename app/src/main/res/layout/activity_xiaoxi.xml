@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".XiaoxiActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_7"
+            android:gravity="center"
+            android:text="消息"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_11"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/but_uername"
+            android:paddingLeft="20dp"
+            android:text="畅行小叮当版本信息"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tv_6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_4"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/but_uername"
+            android:paddingLeft="20dp"
+            android:text="足迹"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tv_11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_6"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/but_uername"
+            android:paddingLeft="20dp"
+            android:text="旅游攻略"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/bt_shouye"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn_5"
+            android:text="首页"
+            android:textSize="25sp"
+            />
+        <Button
+            android:id="@+id/bt_gongneng"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="125dp"
+            android:background="@drawable/btn_5"
+            android:text="功能"
+            android:textSize="25sp"
+
+            />
+        <Button
+            android:id="@+id/bt_xiaoxi"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="225dp"
+            android:background="@drawable/btn_5"
+            android:text="消息"
+            android:textSize="25sp"
+
+            />
+        <Button
+            android:id="@+id/bt_wode"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="325dp"
+            android:background="@drawable/btn_5"
+            android:text="我的"
+            android:textSize="25sp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
